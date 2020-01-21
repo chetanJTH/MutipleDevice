@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OB Automation Test">
+
+    <listeners>
+        <listener class-name="utils.testListener"/>
+    </listeners>
+
+    <test name="Font Module" thread-count="3" parallel="classes">
+        <classes>
+            <class name="BasePackage.TestSuite"/>
+        </classes>
+    </test>
+
+
+
+
+</suite>
